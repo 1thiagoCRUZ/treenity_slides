@@ -9,3 +9,16 @@
 ::-webkit-scrollbar {
     display: none;
 }
+
+@layer utilities {
+  /* Esconde as setas no Chrome, Safari, Edge, Opera */
+  .no-spin::-webkit-outer-spin-button,
+  .no-spin::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  /* Esconde as setas no Firefox */
+  .no-spin {
+    -moz-appearance: textfield;
+  }
+}

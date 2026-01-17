@@ -107,7 +107,7 @@ export const slides = [
     layout: "price_hero",
     title: "INVESTIMENTO",
     value: "R$ 35.000",
-    obs: "ENTRADA DE APROX 17,15% DO VALOR TOTAL + PARCELAS PARCELAS DO VALOR RESTANTE",
+    obs: "ENTRADA DE APROX 17,15% DO VALOR TOTAL + PARCELAS DO VALOR RESTANTE",
     cta: "Ver Detalhes"
   },
 
